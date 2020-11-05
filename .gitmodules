@@ -1,0 +1,6 @@
+[submodule "MMLiveFFTPlugin"]
+	path = MMLiveFFTPlugin
+	url = https://github.com/ctr26/MMLiveFFTPlugin
+[submodule "MMSIMPlugin"]
+	path = MMSIMPlugin
+	url = https://github.com/ctr26/MMSIMPlugin
