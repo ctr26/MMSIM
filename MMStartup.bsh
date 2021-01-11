@@ -1,0 +1,20 @@
+mmc.logMessage("Processing startup script...");
+mmc.setConfig("Startup", "Init");
+//mmc.setROI
+mmc.setROI(734,1061,512,512);
+mmc.logMessage("Startup script finished.");
+
+mm.acquisitions().clearRunnables();
+SIM_reset_runnable = new Runnable() {
+public void run() {
+		//		mmc.setAutoShutter(false);
+		mmc.setConfig("SLM Reset", "LOW");
+		Thread.sleep(50);
+		mmc.setConfig("SLM Reset","HIGH");
+//		Thread.sleep(1000);
+//		mmc.setProperty("SLM Trigger","State",0);
+		
+	}
+};
+
+mm.acquisitions().attachRunnable(0,0,0,0,SIM_reset_runnable);
