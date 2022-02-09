@@ -3,3 +3,5 @@ MMSIMPlugin modifies MicroManager to produce multiple frames per MicroManager "f
 MMLiveFFT provides a live Power frequency spectrum of the live image which is useful for system alignment and quality control.
 
 Drag and drop the *.jar files into MicroManager to install.
+
+Run the `MMStartup.bsh` on MicroManager launch too to setup up reset signal init conditions
