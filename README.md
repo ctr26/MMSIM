@@ -1,4 +1,4 @@
-Parent repository for the MMSIM framework which currently includes MMSIMPlugin and MMLiveFFT which are plugins for MicroManager.
+Parent repository for the MMSIM framework which currently includes MMSIMPlugin and MMLiveFFT which are plugins for MicroManager (Gamma build).
 MMSIMPlugin modifies MicroManager to produce multiple frames per MicroManager "frame" for microscopy systems like SIM.
 MMLiveFFT provides a live Power frequency spectrum of the live image which is useful for system alignment and quality control.
 
